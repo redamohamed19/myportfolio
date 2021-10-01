@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 4.32vw;
+  font-family: 'Secular One', sans-serif;
+  letter-spacing: 6px;
+}
+h3 {
+  font-size: 2.16vw;
+  font-family: 'Secular One', sans-serif;
+}
+h4 {
+  font-size: 1.35vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.frame1 {
+  height: 100%;
+  background-image: url('img/Frame1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+
+  justify-content: flex-end;
+  align-content: space-around;
+  list-style-type: none;
+}
+li {
+  color: white;
+  margin-right: 3.5%;
+  margin-top: 2%;
+  font-size: 1.3vw;
+  padding: 11.5px 30.5px 11.5px;
+}
+li:hover {
+  background-color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  color: black;
+}
+.f1s2 {
+  display: flex;
+}
+.f1s2left {
+  padding-left: 10%;
+  padding-top: 15%;
+}
+.f1s2left h3,
+h1,
+h4 {
+  text-align: left;
+}
+.f1s2left h4 {
+  color: #595555;
+  padding-top: 2%;
+}
+.f1s2left h1 {
+  padding-top: 7%;
+}
+.socialmedia {
+  display: flex;
+
+  margin-top: 10%;
+  justify-content: space-between;
+}
+.f1s2right {
+  position: absolute;
+
+  bottom: 0px;
+  right: 6.5%;
+}
+.f1s2right img {
+  width: 43.73vw;
+  height: 40.19vw;
+}
+.frame2 h1 {
+  padding-top: 3%;
+  text-align: center;
+}
+.frame2 img {
+  display: flex;
+  width: 15vw;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.frame2 p {
+  display: flex;
+  text-align: center;
+  padding-top: 2%;
+  width: 55vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.42vw;
+  letter-spacing: 3px;
+}
+.f2s1 {
+  display: flex;
+  padding-top: 4%;
+}
+.f2s1right,
+.f2s1left {
+  width: 100%;
+}
+.f2s1right p {
+  width: 80%;
+  text-align: justify;
+}
+.frame3 h1 {
+  padding-top: 3%;
+  text-align: center;
+}
+.frame3 img {
+  display: flex;
+  width: 15vw;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.f3s1 {
+  display: flex;
+  padding-top: 4%;
+}
+.f3s1right,
+.f3s1left {
+  width: 100%;
+  border: 2px solid;
+}
+.f3s1left p {
+  width: 80%;
+  text-align: justify;
+  font-size: 1.42vw;
+  letter-spacing: 3px;
+  margin-right: auto;
+  margin-left: auto;
+}
