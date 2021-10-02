@@ -107,11 +107,59 @@ h4 {
 }
 .f2s1right,
 .f2s1left {
+  position: relative;
   width: 100%;
 }
 .f2s1right p {
+  padding-top: 10%;
   width: 80%;
   text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+.f2s1left {
+  position: relative;
+  height: 30vw;
+}
+.rec1,
+.rec2,
+.rec3,
+.rec4 {
+  position: absolute;
+  height: 8.06vw;
+  width: 8.06vw;
+
+  border-radius: 18px;
+}
+.f2s1left p {
+  color: white;
+  padding-top: 10%;
+  padding-left: 5%;
+  font-size: 220%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+}
+.rec1 {
+  left: 25%;
+  top: 10%;
+  background: #74dba3;
+}
+.rec2 {
+  left: 60%;
+
+  background: #b28ecc;
+}
+.rec3 {
+  left: 35%;
+  top: 60%;
+  background: #ea759a;
+}
+.rec4 {
+  left: 70%;
+  top: 50%;
+
+  background: #85dfe4;
 }
 .frame3 h1 {
   padding-top: 3%;
@@ -140,4 +188,15 @@ h4 {
   letter-spacing: 3px;
   margin-right: auto;
   margin-left: auto;
+}
+.frame4 h1 {
+  padding-top: 3%;
+  text-align: center;
+}
+.frame4 img {
+  display: flex;
+  width: 19vw;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
