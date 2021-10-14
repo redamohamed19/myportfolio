@@ -180,6 +180,21 @@ h4 {
 .f3s1left {
   width: 100%;
 }
+.f3s1right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box {
+  width: 40%;
+  margin: auto 0;
+}
+
+.box h2 {
+  width: 100%;
+  text-align: center;
+}
+
 .f3s1left p {
   width: 80%;
   text-align: justify;
