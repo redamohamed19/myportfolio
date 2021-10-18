@@ -318,4 +318,11 @@ h4 {
     display: block;
     text-align: center;
   }
+  .frame1 {
+    height: 100%;
+    background-image: url('img/frame1_resp.jpg');
+  }
+  .f1s2right {
+    display: none;
+  }
 }
