@@ -310,19 +310,18 @@ h4 {
     margin: 10px;
     background: #ccc;
     float: right;
+    background: url('img/menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     cursor: pointer;
   }
   .resp_navbar::before {
-    font-weight: 900;
-    content: 'A';
-    font-size: 50px;
-    color: red;
   }
-  .active::before {
-    font-weight: 900;
-    content: 'B';
-    font-size: 50px;
-    color: green;
+  .active {
+    background: url('img/menu1.png');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
   }
   .navsup {
     display: none;
