@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 h1 {
   font-size: 96px;
   font-family: 'Secular One', sans-serif;
@@ -95,7 +96,6 @@ h4 {
   margin-right: auto;
 }
 .frame2 p {
-  display: flex;
   text-align: center;
   padding-top: 2%;
   width: 55vw;
@@ -123,6 +123,9 @@ h4 {
 .f2s1left {
   position: relative;
   height: 30vw;
+}
+#separator {
+  display: none;
 }
 .rec1,
 .rec2,
@@ -315,8 +318,7 @@ h4 {
     background-size: cover;
     cursor: pointer;
   }
-  .resp_navbar::before {
-  }
+
   .active {
     background: url('img/menu1.png');
     background-repeat: no-repeat;
@@ -339,6 +341,9 @@ h4 {
     height: 100%;
     background-image: url('img/frame1_resp.jpg');
   }
+  .f1s2 {
+    width: 100%;
+  }
   .f1s2right {
     display: none;
   }
@@ -349,11 +354,22 @@ h4 {
     color: #f2f2f2;
     text-align: center;
   }
-  .f1s2left {
+  #separator {
+    display: block;
     margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .f1s2left {
+    margin-top: 50%;
     width: 100%;
     padding-left: 0;
-    padding-right: 0;
+    padding-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .active2 {
+    margin-top: 5%;
   }
   .f1s2 {
     margin-right: 0px;
@@ -365,5 +381,27 @@ h4 {
     margin-top: 0%;
     font-size: 24px;
     font-weight: bold;
+  }
+  .socialmedia {
+    display: none;
+  }
+  .frame2 img {
+    width: 45%;
+    height: 3px;
+  }
+  .about_me_first_p {
+    display: none;
+  }
+  .f2s1 {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 2%;
+  }
+  .f2s1left {
+    order: 2;
+  }
+  .f2s1right p {
+    padding-top: 0;
+    margin-top: 2%;
   }
 }

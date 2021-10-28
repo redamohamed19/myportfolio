@@ -11,5 +11,6 @@ $(function() {
   $('.resp_navbar').click(function() {
     $('.resp_navbar').toggleClass('active');
     $('.navsup').toggleClass('show');
+    $('.f1s2left').toggleClass('active2');
   });
 });
