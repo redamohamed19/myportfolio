@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -95,13 +96,17 @@ h4 {
   margin-left: auto;
   margin-right: auto;
 }
-.frame2 p {
+.about_me_first_p {
   text-align: center;
   padding-top: 2%;
   width: 55vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.42vw;
+  font-size: 1.625rem;
+  letter-spacing: 3px;
+}
+.about_me_second_p {
+  font-size: 1.625rem;
   letter-spacing: 3px;
 }
 .f2s1 {
@@ -294,7 +299,7 @@ h4 {
   }
   h1 {
     font-size: 40px;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Lalezar', cursive;
     letter-spacing: 6px;
   }
   h3 {
@@ -318,7 +323,11 @@ h4 {
     background-size: cover;
     cursor: pointer;
   }
-
+  .header_respons {
+    width: 100%;
+    height: 11%;
+    background: #333333;
+  }
   .active {
     background: url('img/menu1.png');
     background-repeat: no-repeat;
@@ -333,7 +342,7 @@ h4 {
     width: 100%;
   }
   div.show ul {
-    margin-bottom: 10%;
+    margin-bottom: 10px;
     display: block;
     text-align: center;
   }
@@ -360,17 +369,21 @@ h4 {
     margin-left: auto;
     margin-right: auto;
   }
+  .active2 {
+    padding-top: 0%;
+  }
+  .frame2 h1 {
+    font-size: 2.5rem;
+  }
   .f1s2left {
-    margin-top: 50%;
     width: 100%;
     padding-left: 0;
-    padding-top: 0;
+    margin-top: 0%;
+
     margin-right: auto;
     margin-left: auto;
   }
-  .active2 {
-    margin-top: 5%;
-  }
+
   .f1s2 {
     margin-right: 0px;
   }
@@ -384,6 +397,9 @@ h4 {
   }
   .socialmedia {
     display: none;
+  }
+  .about_me_second_p {
+    font-size: 1rem;
   }
   .frame2 img {
     width: 45%;
